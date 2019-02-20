@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: lightgrey;
+}
+
+
+main {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  overflow: scroll;
+  padding-top: 30px;
+  flex-wrap: wrap;
+}
+
+.mdc-top-app-bar__row {
+  border-radius: 10px 10px 0 0;
+  background-color: black;
+}
+
+.mdc-top-app-bar {
+  border-radius: 10px 10px 0 0;
+  position: fixed;
+  top: 0;
+  background-color: black;
+  width: 100%;
+}
+
+.start-quiz-button {
+  position: absolute;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  height: 55px;
+  width: 80px;
+  outline: none;
+}
+
+.Qcontainer {
+  position: relative;
+  padding: 30px 10px 30px 0px;
+  height: auto;
+  width: 100%;
+}
+
+.radiobutton {
+  margin-left: 5%;
+  outline: none;
+}
+
+.questions {
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.submitButton {
+position: relative;
+margin: 10px;
+background-color: black;
+color: white;
+font-size: 20px;
+border-radius: 10px;
+border: none;
+height: 55px;
+width: 80px;
+outline: none;
+}
+
+
+.start-quiz-button:active, .submitButton:active {
+  box-shadow: 0 0 2px 2px grey;
+  background-color: #202020;
+}
+
+li {
+  font-weight: normal;
+}
+
+/* ================ PopUp ============================= */
+
+.popUp-shadow {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background-color: #00000021;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popUp {
+  position: relative;
+  height: 30%;
+  width: 70%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.closePopup {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: inherit;
+  border: 1px solid black;
+  border-radius: 5px;
+  outline: none;
+}
+
+
+=======================================================================
+
+@media (min-width:700px) {
+  main {
+    width: 80%;
+    height: 800px;
+    box-shadow: 0 0 20px 1px #7d7c7c;
+  }
+  body {
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+  }
+  .mdc-top-app-bar{
+    position: absolute;
+  }
+}
+
+@media (min-width:1000px) {
+  main {
+    width: 50%;
+    height: 800px;
+  }
+  body {
+    background-color: lightgrey;
+    padding-top: 170px;
+  }
+}
+
+@media (min-width:1050px) {
+  main {
+    width: 30%;
+    height: 600px;
+  }
+  body {
+    background-color: lightgrey;
+    padding-top: 50px;
+  }
+}
