@@ -22,7 +22,7 @@ function respons() {
 }
 
 function addQuestion() {
-  main.innerHTML = '';
+  questionContainer.innerHTML = '';
   let count = 0;
 
   for (question of parsed.results){
@@ -30,8 +30,8 @@ function addQuestion() {
     ul = document.createElement('ul');
     ul.className = 'questions';
 
-    let label = document.createElement('label');
-    label.textContent ='Q'+ count + '. ' + question.question;
+    let label = document.createElement('h3');
+    label.innerHTML ='Q'+ count + '. ' + question.question;
     ul.appendChild(label);
     questionContainer.appendChild(ul);
 
@@ -42,7 +42,7 @@ function addQuestion() {
 
     for(let i in answers) {
       let li = document.createElement('li');
-      li.textContent = answers[i];
+      li.innerHTML = answers[i];
       ul.appendChild(li);
 
       radiobutton = document.createElement('input');
@@ -60,7 +60,7 @@ function createSubmit(){
   let submitButton = document.createElement('button');
   submitButton.className = 'submitButton';
   submitButton.textContent = 'Submit';
-  main.appendChild(submitButton);
+  questionContainer.appendChild(submitButton);
   submitButton.addEventListener('click', submitAnswer);
 }
 
