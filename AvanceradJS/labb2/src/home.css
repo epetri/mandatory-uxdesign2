@@ -1,0 +1,33 @@
+
+.renderTableDiv_search{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.searchInput {
+    margin: 5px 0 0;
+    border-radius: 10px;
+    height: 50px;
+    padding: 20px;
+}
+
+.searchResult{
+    margin: auto;
+    height: 100vh;
+    background-image: url(https://kulturkozpont.hu/wp-content/uploads/2018/04/altalanos_mozi.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    border-radius: 20px;
+}
+
+.searchResult-movie{
+    width: 400px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.87);
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}

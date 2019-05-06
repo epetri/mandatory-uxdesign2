@@ -1,0 +1,47 @@
+.table{
+    margin: auto;
+    height: 700px;;
+    width: 800px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+table{
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.68);
+}
+
+.tableTd, .tableTh {
+    font-size: 20px;
+    padding: 20px;
+}
+
+.tableTd_rating {
+    text-align: center;
+}
+
+.tableLink {
+    color: black;
+    text-decoration: none;
+}
+
+.tableLink:hover {
+    text-decoration: underline;
+}
+
+.tableLink:visited {
+    color: red;
+}
+
+.delMovieButton {
+    background: inherit;
+    border: none;
+    color: red;
+    font-size: 20px;
+
+}
+
+.delMovieButton:hover {
+    text-shadow: 2px 0px 4px black;
+}
+

@@ -1,0 +1,87 @@
+.addMovieForm{
+    margin: auto;
+    background-image: url(https://kulturkozpont.hu/wp-content/uploads/2018/04/altalanos_mozi.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 700px;;
+    width: 800px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.movieForm {
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.68);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 700px;
+}
+
+.movieForm-label{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding: 30px 20px 0 20px;
+}
+
+.movieForm-input{
+    font-size: 20px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    height: 20px;
+    background-color: #ffffffbf;
+}
+
+.movieForm-textarea {
+    resize: none;
+    margin: 10px;
+    font-size: 20px;
+    background-color: #ffffffbf;
+    border-radius: 5px;
+    width: 400px;
+    height: 70px;
+    padding-left: 10px;
+
+}
+
+.ratingNumber {
+    margin: 0;
+    font-size: 50px;
+    height: 60px;
+    width: 60px;
+    color:red;
+}
+
+.movieForm-button {
+    background-color: initial;
+    border: none;
+    margin: 10px;
+    font-size: 30px;
+    outline: none;
+    padding: 0;
+}
+
+.movieForm-button:hover {
+    text-decoration: underline;
+}
+
+.errorMsgAddMovie {
+    background-color: rgba(255, 255, 255, 0.68);
+    margin: 0;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.newMovietext {
+    background-color: rgba(255, 255, 255, 0.68);
+    margin: 0;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
