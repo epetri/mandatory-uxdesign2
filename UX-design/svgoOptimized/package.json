@@ -1,0 +1,18 @@
+{
+  "name": "svgooptimized",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "svgo-optimize": "svgo images -o dist" 
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "svgo": "^1.1.1"
+  },
+  "scripts": {
+    "svgos": "svgo"
+  }
+}

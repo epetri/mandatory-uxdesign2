@@ -1,0 +1,249 @@
+body {
+  width: 100vw;
+  background-color: #667292;
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  position: relative;
+  text-align: center;
+  padding-top: 30px;
+}
+
+nav {
+  width: 300px;
+  position: absolute;
+  left: 30px;
+  bottom: 10px;
+}
+
+h1 {
+  color: white;
+  font-family: 'Pacifico', cursive;
+  display: inline;
+}
+
+h2 {
+  color: white;
+  vertical-align: baseline;
+  display: inline-block;
+}
+
+i {
+  color: white;
+  vertical-align: bottom;
+}
+
+.menu {
+  color: inherit;
+}
+
+.menu:hover {
+  color: #667292;
+}
+
+/* ================================== Emma ===================================*/
+
+.add-item {
+  display: none;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(134, 162, 190, 0.52);
+  position: fixed;
+  z-index: 1;
+}
+
+.add-item__popup {
+  height: 240px;
+  width: 500px;
+  background-color: white;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 8px black;
+  position: relative;
+}
+
+.add-item-popup__testarea {
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.add-item-popup__cancel {
+  background-color: inherit;
+  border: none;
+  position: absolute;
+  top: 5px;
+  right:5px;
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
+  outline: none;
+}
+
+.add-item-popup__add {
+  background-color: inherit;
+  border: none;
+  position: absolute;
+  bottom: 15px;
+  right: 5px;
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
+  outline: none;
+}
+
+.add-item-popup__cancel:active, .add-item-popup__add:active {
+  font-size: 15px;
+}
+
+/*Classes made in JS*/
+
+.blockDiv {
+  height: 100%;
+  width: 100%;
+  background-color: pink;
+}
+
+.newItem {
+  width: 250px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 10px 25px 0 20px;
+  padding: 5px;
+  position: relative;
+}
+
+.textareaValue {
+  top: 25px;
+  left: 10px;
+  margin: 0;
+}
+
+.removeItemButton {
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  background-color: inherit;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.time {
+  margin: 0 0 5px 0;
+}
+
+.buttonDiv {
+  padding-top: 10px;
+  width: 300px;
+  height: 50px;
+}
+
+.listCont {
+  width: 300px;
+  height: auto;
+}
+
+.checkMark > i  {
+  position: absolute;
+  bottom: 2px;
+  right: 25px;
+  width: 20px;
+  height: 20px;
+  border: none;
+  color: green;
+  cursor: pointer;
+}
+/* ================================== Ayumi ===================================*/
+
+.popup {
+  display: block;
+  position: absolute;
+  height: 60vh;
+  width: 60vw;
+  top: 20vh;
+  left: 20vw;
+  background-color: #8d9db6;
+  border-radius: 10px;
+}
+
+.popup-items {
+  display: inline-block;
+  position: relative;
+  left: 20px;
+}
+
+.popup-items__title {
+
+}
+
+.popup__textarea {
+  border-radius: 5px;
+  border: none;
+}
+
+#close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+/*========================================== Filip ============================*/
+.lists-container {
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  /* user-select: none; */
+  height: 710px;
+}
+.lists-container__list {
+  position: relative;
+  height:auto;
+  min-height: 100px;
+  width: 300px;
+  background-color: #e8e8e8;
+  border-radius: 10px;
+  position: relative;
+  padding-top: 10px;
+  display: inline-block;
+  margin: 0px 10px 10px 10px;
+}
+.lists-container__button {
+  width: 100px;
+  height: 50px;
+  background-color: #99b8d3;
+  border-radius: 10px;
+  outline: none;
+  position: absolute;
+  bottom: 5px;
+  right: 110px;
+  cursor: pointer;
+}
+.lists-container__add-list-button {
+  width: 300px;
+  height: 50px;
+  color: #99b8d3;
+  background-color: #e8e8e8;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+}
+.boxclose {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  cursor:pointer;
+  color: #fff;
+  border-radius: 30px;
+  background: #99b8d3;
+  font-size: 31px;
+  font-weight: bold;
+  display: inline-block;
+  line-height: 0px;
+  padding: 11px 3px;
+}
+.boxclose:before {
+  content: "×";
+}

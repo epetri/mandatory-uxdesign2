@@ -1,0 +1,40 @@
+/** Write your CSS here **/
+
+#thelist li:nth-child(odd){
+  background-color: grey;
+}
+#thelist li{
+  list-style: none;
+}
+
+.beer {
+  display: none;
+}
+ul {
+  margin-left: 30px;
+}
+
+
+
+/** Do not change this **/
+
+body {
+  margin: 0;
+}
+
+h1, h2, h3 {
+  margin: 20px;
+  color: #808080;
+}
+
+p {
+  margin: 20px;
+}
+
+#thelist {
+  list-style: upper-roman;
+}
+
+#header-title {
+  color: #ccc !important;
+}

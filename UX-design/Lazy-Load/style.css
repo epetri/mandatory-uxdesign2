@@ -1,0 +1,14 @@
+body {
+  background-color: darkgrey;
+}
+
+h1 {
+  text-align: center;
+}
+
+.imgContainer img {
+  margin: 10px;
+  width: 200px;
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.5);
+}

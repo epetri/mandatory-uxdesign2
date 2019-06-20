@@ -1,0 +1,15 @@
+{
+  "name": "spionexcr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^5.2.0",
+    "sinon": "^7.2.3"
+  }
+}

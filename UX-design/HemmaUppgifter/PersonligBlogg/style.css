@@ -1,0 +1,105 @@
+:root {
+  --margin: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+ background: #f1f1f1;
+ padding: 20px;
+}
+
+header {
+  background-color: lightgray;
+  text-align: center;
+  padding: 50px;
+  border-radius: 10px 10px 0 0;
+}
+
+h1, h4 {
+  margin: 0;
+}
+
+.nav {
+  margin: 0 0 20px 0;
+  background-color: lightblue;
+  border-radius: 0 0 10px 10px;
+  overflow: hidden;
+  text-align: left;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+  padding: 10px 10px 0px 10px;
+}
+
+.nav a {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  font-size: 20px;
+}
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: var(--margin);
+}
+
+aside {
+  background-color: white;
+  padding: var(--margin);
+  margin-bottom: var(--margin);
+  border-radius: 10px;
+}
+
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+.fakepic {
+  padding: var(--margin);
+  width: 100%;
+  background-color: lightblue;
+  border-radius: 10px;
+}
+
+.fakepic2 {
+  padding: var(--margin);
+  width: 50%;
+  background-color: lightblue;
+  border-radius: 10px;
+  float: right;
+}
+
+main {
+  background-color: white;
+  padding: var(--margin);
+  margin-bottom: var(--margin);
+  border-radius: 10px;
+}
+
+footer {
+  margin-top: var(--margin);
+  clear: both;
+  background-color: lightgray;
+  text-align: center;
+  padding: 30px;;
+  height: 100px;
+}
+
+@media screen and (max-width: 600px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+  a {
+    display: none;
+  }
+}

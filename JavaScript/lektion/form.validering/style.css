@@ -1,0 +1,49 @@
+
+main {
+  width: 350px;
+  margin: auto;
+}
+
+main h1 {
+  font-family: 'Anton', sans-serif;
+  color: #00921a;
+}
+form {
+  padding: 20px;
+  background-image: url("grass.png");
+  background-size: 200px 400px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: inset 0px 0px 5px 0px #001a00;
+  border-radius: 50px;
+  color: #769e76;
+    text-shadow: 0px 0px 16px white
+
+}
+
+form label {
+  font-family: 'Anton', sans-serif;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+
+}
+form label input {
+  border-radius: 50px;
+  background-color: #00921a;
+  margin-left: 10px;
+  outline: 0;
+  text-align: center;
+  border-style: none;
+      color: white;
+}
+
+form button {
+  height: 50px;
+  font-family: 'Anton', sans-serif;
+  color: white;
+  background-color: #00921a;
+  border-radius: 50px;
+  outline: 0;
+  border-style: none;
+}

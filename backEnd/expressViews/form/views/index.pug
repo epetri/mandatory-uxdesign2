@@ -1,0 +1,17 @@
+html
+    head
+        title= title
+    body
+        form(method='post' action='/submit')
+            label(type='text' for='name') Name:
+            input(type='text' name='name', placeholder='Name')
+
+            label(type='number' for='age') Age:
+            input(type='number' name='age', placeholder='Age')   
+
+            button(type='submit') OK      
+    
+    ul
+        each val in people
+            li= val.name
+            li= val.age

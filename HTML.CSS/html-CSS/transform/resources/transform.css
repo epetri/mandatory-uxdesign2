@@ -1,0 +1,69 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.shape {
+  height: 100px;
+  width: 100px;
+  border: 1px solid #ccc;
+}
+
+
+.circle {
+  border-radius: 50px;
+  transform: skew(0deg, -30deg) scale(1, 0.7);
+}
+
+.box {
+  transform: scale(2) translate(50px);
+
+}
+
+.c1 {
+  transform: scale(0.7) translate(50px, -60px);
+  background: black;
+  border: none;
+
+}
+
+.c2 {
+  transform: scale(1.0);
+  background: black;
+  border: none;
+}
+
+.c3 {
+transform: scale(0.7) translate(-50px, -60px);
+background: black;
+border: none;
+}
+
+.s-image {
+    width: 300px;
+    transform: rotateY(0.5turn);
+    transform-origin: 0;
+
+}
+
+.image-container {
+  margin: 200px 0;
+}
+
+.image-container img,
+.shadow {
+  height: 300px;
+  background-color: #ccc;
+}
+
+.container.top {
+  background-image: url(resources/forest.jpg);
+  height: 500px;
+}
+
+.container.bottom {
+  background: #ddd;
+  height: 500px;
+}

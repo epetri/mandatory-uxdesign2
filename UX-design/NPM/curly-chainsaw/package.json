@@ -1,0 +1,28 @@
+{
+  "name": "curly-chainsaw",
+  "version": "1.0.0",
+  "description": "My First npm-modul",
+  "main": "index.js",
+  "scripts": {
+    "test": "curly-chainsaw"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epetri/curly-chainsaw.git"
+  },
+  "keywords": [
+    "curly"
+  ],
+  "author": "Emma Petri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/epetri/curly-chainsaw/issues"
+  },
+  "homepage": "https://github.com/epetri/curly-chainsaw#readme",
+  "dependencies": {
+    "cli-color": "^1.4.0"
+  },
+  "bin": {
+    "min-fina-modul": "./index.js"
+  }
+}

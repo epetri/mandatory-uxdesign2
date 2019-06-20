@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>box</title>
+</head>
+<style>
+
+.färg {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  padding: 20px;
+}
+
+#blå {
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+
+
+}
+
+#grön {
+  background-color: green;
+  width: 100px;
+  height: 100px;
+
+}
+
+#röd {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+}
+
+#gul {
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+}
+
+#left {
+  float: left;
+  position: absolute;
+  top: 50%;
+  left: 46%;
+
+
+}
+
+#right {
+  float: right;
+  position: absolute;
+  top: 50%;
+  left: 55%;
+
+}
+
+#center {
+  position: relative;
+}
+
+</style>
+
+<body>
+
+<div id="center">
+  <div id=left>
+      <div id="blå" class="färg">
+        <p>blå</p>
+      </div>
+
+      <div id="grön" class="färg">
+        <p>grön</p>
+      </div>
+  </div>
+  <div id=right>
+    <div id="röd" class="färg">
+      <p>röd</p>
+    </div>
+
+    <div id="gul" class="färg">
+      <p>gul</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

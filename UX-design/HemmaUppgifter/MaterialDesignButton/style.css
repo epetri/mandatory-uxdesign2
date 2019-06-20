@@ -1,0 +1,17 @@
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blue;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  border: none;
+  border-radius: 10px;
+  height: 60px;
+  width: 300px;
+  font-size: 20px;
+}
+
+i {
+  padding-right: 10px;
+}

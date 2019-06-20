@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Labb 1</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="header-title">
+                <h1>よろしくね!! (Let's get along!!)</h1>
+            </div>
+        </header>
+        <nav>
+            <ul class="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About me</a></li>
+                <li><a href="favorites.html">Favorite movies</a></li>
+                <li><a href="links.html">Links</a></li>
+                <li><a href="contact.html" class="nav-active">Contact me</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div class="container">
+                <h1>Get a hold of me!</h1>
+                <div class="form">
+                    <form method="POST" id="contact">
+                        <div class="form-group">
+                            <label for="name">My name's Oscar.</label>
+                            <input type="text" id="name" placeholder="And yours?" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">I need to reach you somehow.</label>
+                            <input type="email" id="email" placeholder="And yes, I require your mail for that." required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">You got a reason too?</label>
+                            <select name="subject" id="subject" required>
+                                <option value="" disabled selected>This is not a yes or no question..</option>
+                                <option value="1">Something silly</option>
+                                <option value="2">Something very silly</option>
+                                <option value="3">Something VERY silly</option>
+                                <option value="4">Not sure</option>
+                            </select>
+                        </div>
+                        <div class="form-group"><label for="message">You want to ask something, right?</label>
+                            <textarea name="message" id="message" cols="30" rows="10" placeholder="Insert blablabla here!" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <input class="form-button" type="submit" value="Send me all your faxes!" required>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+        <footer>
+                <p>&copy; Oscar Nilsson | <a href="mailto:oscar@spectly.se">Want to send me an email?</a> | Like my work? <a href="contact.html">Tell me!</a></p>
+        </footer>
+    </div>
+</body>
+</html>

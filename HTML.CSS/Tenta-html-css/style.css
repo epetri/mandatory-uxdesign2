@@ -1,0 +1,44 @@
+#problem1 .problem-area {
+  color: red;
+  font-size: 24px;
+}
+
+#problem2 .problem-area {
+  display: flex;
+  flex-direction: row;
+}
+
+#problem7 .problem-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#problem10 .problem-area p {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+#problem12 .problem-area {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+#problem12 .problem-area .box {
+  flex: 33%;
+}
+
+@media (max-width:540px) {
+  #problem12 .problem-area .box {
+    min-width: 100%;
+  }
+}
+
+#problem13 .problem-area {
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  align-content: space-between;
+}

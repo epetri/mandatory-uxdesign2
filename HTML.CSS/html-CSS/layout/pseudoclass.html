@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <title>pseudo</title>
+    <style>
+
+    div {
+        height: 200px;
+        background-color: pink;
+        color: white;
+        padding: 25px;
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Indie Flower', cursive;
+    }
+    span:hover {
+        background-color: #FF00FF;
+    }
+
+
+
+    button {
+      width: 100px; height: 100px; background: white; border-radius: 100%;
+      color: grey;
+      font-size: 16px;
+      transition-duration: 1.5s;
+      cursor: pointer;
+    }
+    button:hover {
+      width: 150px; height: 150px; border-radius: 80%;
+      background-color: grey;
+      color: white;
+        text-decoration: underline;
+    }
+
+    button:active {
+      background-color: pink;
+
+    }
+
+.blink{
+  font-size: 25px;
+  color: white;
+  animation: blink 1s linear infinite;
+}
+@keyframes blink{
+0%{opacity: 0;}
+50%{opacity: .5;}
+100%{opacity: 1;}
+}
+
+
+    </style>
+  </head>
+  <body>
+    <div>
+    <p>Jag har haft en <span>superdag</span> och nu ska jag ha en <span>superkväll!</span></p>
+    <p class="anim"><span class="blink">Har du haft en bra dag?</p>
+    </div>
+
+    <div class="knapp">
+      <a href="http://google.com" target="_blank"><button>Ja!</button></a>
+    </div>
+
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,18 @@
+
+@media (max-width: 1000px) {
+  img {
+    min-width: 30%;
+  }
+}
+
+@media (max-width:700px) {
+  img {
+    min-width: 45%;
+  }
+}
+
+@media (max-width:500px) {
+  img {
+    min-width: 60%;
+  }
+}

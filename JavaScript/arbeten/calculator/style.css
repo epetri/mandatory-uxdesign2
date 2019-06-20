@@ -1,0 +1,53 @@
+.container {
+  box-shadow: 0px 0px 10px 6px gray;
+  border-radius: 10%;
+  margin: 100px 349px;
+  width: 430px;
+  height: 490px;
+  background-color: black;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 80px 80px 80px 80px;
+  grid-template-rows: 80px 80px;
+  grid-template-areas:
+  "header header header header"
+  "main main main main"
+  "main main main main"
+  "main main main main"
+  "main main main main";
+}
+
+.item-header {
+  border-radius: 8px;
+  box-shadow: inset 0px 0px 3px 2px grey;
+  margin: 10px 0px 10px 0px;
+  grid-area: header;
+  background-color: white;
+  text-align: right;
+  font-size: 40px;
+}
+
+.btn {
+  background-color: blue;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin: 4px 2px;
+  font-size: 26px;
+  outline: 0;
+}
+
+.btn:active {
+  box-shadow: inset 0px 0px 2px 2px black;
+}
+
+.silver {
+  background-color: silver;
+  color: black;
+}
+
+.orange {
+  background-color: orange;
+}

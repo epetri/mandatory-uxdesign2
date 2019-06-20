@@ -1,0 +1,10 @@
+img{
+  margin: 0;
+  padding: 0;
+  width: 100px;
+}
+
+.container .row > *:not(.w-100)  {
+  background-color: pink;
+  border: 1px solid black;
+}

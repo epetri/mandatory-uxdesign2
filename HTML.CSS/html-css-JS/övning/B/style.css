@@ -1,0 +1,34 @@
+/** Write your CSS here **/
+.container .item {
+  background-color: blue;
+}
+.container .item:nth-child(odd){
+  background-color: red;
+}
+
+.outside>.item {
+  background-color: green;
+}
+
+div>.item {
+  background-color: purple;
+}
+
+
+
+/** Do not change this **/
+
+body {
+  margin: 0;
+}
+
+.item {
+  height: 100px;
+  min-width: 100px;
+  border: 1px solid #949494;
+  margin: 10px 50px;
+}
+
+.item-container {
+  display: flex;
+}

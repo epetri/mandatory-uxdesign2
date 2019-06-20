@@ -1,0 +1,14 @@
+.holder {
+  width: 700px;
+  height: 6px;
+  background-color: #6200ee99;
+  border-radius: 5px;
+}
+
+.progress {
+  width: 0px;
+  height: 6px;
+  background-color: #6200eeff;
+  transition: .8s;
+  border-radius: 5px;
+}

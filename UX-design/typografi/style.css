@@ -1,0 +1,60 @@
+:root {
+  --color: lightgrey;
+  --rhythm: 30px;
+}
+
+h1 {
+  background-color: var(--color);
+  border-radius: 50px;
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 4.0rem;
+  font-weight: bold;
+  color: blue;
+}
+
+h2 {
+  background-color: var(--color);
+  border-radius: 60px;
+  font-weight: lighter;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 2.0rem;
+  color: blue;
+}
+
+p {
+  background-size: 10000px var(--rhythm);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.2) 1px, transparent 1px);
+  margin: var(--rhythm);
+  line-height: var(--rhythm);
+  font-size: 1.5rem;
+}
+
+ul {
+  line-height: var(--rhythm);
+  text-align: center;
+  list-style: none;
+  font-size: 2.0rem;
+}
+
+@media (max-width: 700px) {
+  p {
+    font-size: 1.0rem;
+  }
+
+  h1 {
+    font-size: 2.0rem;
+    color: #ff0097;
+  }
+
+  h2{
+    font-size: 1.5rem;
+    color: #ff0097;
+  }
+
+  ul {
+    font-size: 1.0rem;
+    color: #ff0097;
+  }
+}

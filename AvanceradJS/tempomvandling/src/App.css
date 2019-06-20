@@ -1,0 +1,14 @@
+.App {
+  margin: auto;
+  margin-top: 30px;
+  padding-top: 10px;
+  text-align: center;
+  width: 400px;
+  height: 250px;
+  background-color: rgb(127, 193, 255);
+  border-radius: 50px;
+}
+
+.celsius{
+  margin-bottom: 0;
+}

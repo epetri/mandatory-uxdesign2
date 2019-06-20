@@ -46,6 +46,10 @@ main {
   outline: none;
 }
 
+button:focus, input:focus{
+  outline: 2px solid red;
+}
+
 .Qcontainer {
   padding: 30px 10px 10px 0px;
   height: auto;

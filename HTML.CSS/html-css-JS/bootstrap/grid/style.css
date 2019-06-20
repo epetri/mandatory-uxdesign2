@@ -1,0 +1,4 @@
+.container .row > *:not(.w-100)  {
+  background-color: blue;
+  border: 1px solid black;
+}

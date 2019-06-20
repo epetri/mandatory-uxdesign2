@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>divsoup</title>
+</head>
+<style>
+#maindiv {
+  margin: 60px;
+  height: 1000px;
+  width: auto;
+}
+
+div {
+  height: 70%;
+  width: 70%;
+  background: linear-gradient(40deg, purple,red, pink, orange, yellow);
+  background-size: 300% 300%;
+  border: 5px dotted pink;
+
+
+  animation: rainbow 18s ease infinite;
+  }
+
+  @-webkit-keyframes rainbow {
+
+    0%{background-position:0% 82%}
+
+    50%{background-position:100% 19%}
+
+    100%{background-position:0% 82%}
+
+}
+
+@-moz-keyframes rainbow {
+
+    0%{background-position:0% 82%}
+
+    50%{background-position:100% 19%}
+
+    100%{background-position:0% 82%}
+
+}
+
+@-o-keyframes rainbow {
+
+    0%{background-position:0% 82%}
+
+    50%{background-position:100% 19%}
+
+    100%{background-position:0% 82%}
+
+}
+
+@keyframes rainbow {
+
+    0%{background-position:0% 82%}
+
+    50%{background-position:100% 19%}
+
+    100%{background-position:0% 82%}
+
+}
+
+.b {
+  background-color: black;
+}
+</style>
+<body>
+  <div id="maindiv">
+    <div class="b">
+      <div>
+        <div class="b">
+          <div>
+            <div class="b">
+              <div>
+                <div class="b">
+                  <div>
+                    <div class="b">
+                      <div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

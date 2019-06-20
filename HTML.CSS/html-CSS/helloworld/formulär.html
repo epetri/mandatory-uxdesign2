@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>hello</title>
+</head>
+<body>
+
+  <center><form>
+      <fieldset>
+          <legend><strong>Registeringsformulär</strong></legend>
+          <!--Kolla upp types på mdn och ändra-->
+
+          <div class="form-example">
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name" required>
+          </div>
+
+          <label for="primary">Email:</label>
+             <input type="email" placeholder="exempel@gmail.com"
+                    required/>
+
+<div>
+                    <label for="age">Age:</label>
+                     <input type="number"
+                            placeholder="age"/>
+                     <span class="validity"></span>
+                   </div>
+
+          <div>
+              <label for="password">Password:</label>
+              <input type="password" id="password" name="password"
+                     minlength="8" required
+                     placeholder="8 characters minimum" />
+          </div>
+
+          <div>
+
+              <label for="password">Repeat password:</label>
+              <input type="password" id="password" name="password"
+                     minlength="8" required
+                     placeholder="8 characters minimum" />
+          </div>
+
+          <form>
+    <fieldset>
+        <legend>Gender</legend>
+
+          <input type="radio" id="Kvinna" name="monster">
+          <label for="kvinna">Kvinna</label><br/>
+
+          <input type="radio" id="Man" name="monster">
+          <label for="Man">Man</label><br/>
+
+          <input type="radio" id="oklart" name="monster">
+          <label for="oklart">oklart</label>
+
+        </fieldset>
+    </form>
+
+          <select id="Choose a country">
+              <option value="">--Please choose a country--</option>
+              <option value="Sweden">Sweden</option>
+              <option value="Germany">Germany</option>
+              <option value="Finland">Finland</option>
+              <option value="Norway">Norway</option>
+          </select>
+
+          <p><button class="styled">Registrera</button></p>
+
+      </fieldset>
+  </form></form>
+
+</body>
+</html>

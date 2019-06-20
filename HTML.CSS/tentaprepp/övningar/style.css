@@ -1,0 +1,234 @@
+#problem6 .problem-area div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#problem6 .box {
+  width: 250px;
+  margin: 1px;
+}
+
+#problem8 .problem-area button {
+  color: white;
+  background-color: green;
+}
+
+#problem9 .problem-area button {
+  height: 50px;
+  width: 200px;
+  font-size: 20px;
+}
+
+#problem10 .problem-area span {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#problem11 .problem-area {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+#problem12 .problem-area {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+#problem13 .problem-area {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#problem14 .problem-area div{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#problem15 .problem-area div {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+#problem16 .problem-area div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#problem17 .problem-area .ball {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#problem18 .problem-area .ball {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#problem25 .problem-area img {
+  animation: 7s football infinite;
+}
+
+@keyframes football {
+  0% {
+    transform: translateX(0%);
+  }
+  50% {
+    transform: translateX(600%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+#problem26 .problem-area img {
+animation: 3s box infinite;
+
+}
+@keyframes box {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+#problem27 .problem-area img{
+  animation: 3s cloud infinite;
+}
+@keyframes cloud {
+  0% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(100%);
+  }
+  0%{
+    transform: translateY(0%);
+  }
+}
+
+#problem28 .problem-area img {
+animation: 1S glas infinite;
+}
+
+@keyframes glas {
+  50% {transform: rotateY(180deg);}
+}
+
+#problem29 .problem-area img {
+  animation: 3s tre infinite;
+}
+
+@keyframes tre {
+  0% {opacity: 0;}
+  15% {opacity: 0.2}
+  25% {opacity: 0.5}
+  50% {opacity: 1;}
+  75% {opacity: 0.5;}
+  90% {opacity: 0.2}
+  100% {opacity: 0;}
+}
+
+#problem32 .problem-area .grid-wrapper  {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+#problem32 .problem-area .grid-wrapper .item1 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+#problem33 .problem-area .grid-wrapper {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+
+#problem33 .problem-area .grid-wrapper .item7 {
+  grid-column-start: 6;
+  grid-column-end: 2;
+}
+
+#problem34 .problem-area .grid-wrapper {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+#problem34 .problem-area .grid-wrapper .grow {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+#problem39 .problem-area {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+}
+
+#problem39 .problem-area .box{
+  flex: 33%;
+}
+
+@media (max-width:700px) {
+  #problem39 .problem-area .box {
+    min-width: 50%;
+  }
+}
+
+#problem40 .problem-area {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+#problem40 .problem-area .box{
+  flex: 33%;
+}
+@media (max-width:700px) {
+  #problem40 .problem-area .box{
+    min-width: 100%;
+  }
+}
+#problem41 .problem-area {
+  display: flex;
+  flex-wrap: wrap;
+}
+#problem41 .problem-area .box {
+  flex: 20%;
+}
+@media (max-width:700px) {
+  #problem41 .problem-area .box {
+    min-width: 50%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.

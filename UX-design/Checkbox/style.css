@@ -1,0 +1,31 @@
+input {
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  overflow: hidden;
+  outline: none;
+}
+
+ input ~ label{
+   box-sizing: border-box;
+  position: absolute;
+  border-radius: 50%;
+  height:60px;
+  width: 60px;
+  background-color: #f4ad157a;
+}
+
+input:checked ~ label {
+  background-color: #f09d8c;
+  box-shadow: inset 0px 0px 0px 15px #f0c9a0;
+
+}
+
+input:focus ~ label{
+  border: 15px solid #f4ad157a;
+}
+
+body {
+  display: flex;
+  justify-content: space-around;
+}

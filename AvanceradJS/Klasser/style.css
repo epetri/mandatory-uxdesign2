@@ -1,0 +1,22 @@
+button {
+  height: 30px;
+  width: 60px;
+  border-radius: 10px;
+  border: none;
+  background-color: lightblue;
+  color: white;
+  font-weight: bold;
+  outline: none;
+}
+
+button:hover {
+  border: 2px solid #74c1db;
+}
+
+h1{
+  margin-left: 35px;
+  border: 2px dotted lightblue;
+  width: 50px;
+  text-align: center;
+
+}

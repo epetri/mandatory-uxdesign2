@@ -1,0 +1,328 @@
+/* General Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, p, a, ul li{
+    color: #595F72;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav li, .nav li a, header, main, footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Header */
+
+header {
+    height: 15vh;
+    min-height: 150px;
+}
+
+.header-title {
+    font-size: 2rem;
+}
+
+/* Navigation */
+
+nav {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.nav {
+    height: 100%;
+}
+
+.nav li {
+    display: inline-block;
+    position: relative;
+}
+
+.nav li a {
+    display: block;
+    padding: 25px;
+    width:100%;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 300;
+    align-self: center;
+    position: relative;
+    z-index: 2;
+}
+
+/* Nav link borders */
+
+.nav li a:hover {
+    border-bottom: 0px solid transparent;
+    color: #fff;
+}
+
+.nav li:first-child a {
+    border-bottom: 5px solid #009DDC;
+    background: #fff;
+}
+
+.nav li:nth-child(2) a {
+    border-bottom: 5px solid #F26430;
+    background: #fff;
+}
+
+.nav li:nth-child(3) a {
+    border-bottom: 5px solid #6761A8;
+    background: #fff;
+}
+
+.nav li:nth-child(4) a {
+    border-bottom: 5px solid #009B72;
+    background: #fff;
+}
+
+.nav li:nth-child(5) a {
+    border-bottom: 5px solid #E6F14A;
+    background: #fff;
+}
+
+.nav li a:after { 
+    content: "";
+    width: 100%; 
+    left: 0; 
+    bottom: 0; 
+    height: 0px;  
+    position: absolute; 
+    transition: all 0.3s ease 0s; 
+    z-index: -1;
+}
+/* Nav link background hover stuff */
+
+.nav li a:hover::after {
+    height: 100%;
+}
+
+.nav li:first-child a::after {
+    background: #009DDC;
+}
+
+.nav li:nth-child(2) a::after {
+    background: #F26430;
+}
+
+.nav li:nth-child(3) a::after {
+    background: #6761A8;
+}
+
+.nav li:nth-child(4) a::after {
+    background: #009B72;
+}
+
+.nav li:nth-child(5) a::after {
+    background: #E6F14A;
+}
+
+/* Nav Current page ".nav-active" */
+
+.nav li:first-child a.nav-active {
+    background: linear-gradient(to top, #009DDC 10px, #fff 0);
+}
+
+.nav li:nth-child(2) a.nav-active {
+    background: linear-gradient(to top, #F26430 10px, #fff 0);
+}
+
+.nav li:nth-child(3) a.nav-active {
+    background: linear-gradient(to top, #6761A8 10px, #fff 0);
+}
+
+.nav li:nth-child(4) a.nav-active {
+    background: linear-gradient(to top, #009B72 10px, #fff 0);
+}
+
+.nav li:nth-child(5) a.nav-active {
+    background: linear-gradient(to top, #E6F14A 10px, #fff 0);
+}
+
+
+/* Nav link Active */
+
+.nav li a:active {
+    color: #343E3D;
+}
+/* Main */
+
+main {
+    min-height: 70vh;
+}
+
+main .container {
+    min-height: 500px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 22px;
+}
+
+main .container > * {
+    margin: 2rem 0;
+}
+
+main .container h1 {
+    font-size: 2rem;
+    line-height: 2.2rem;
+}
+
+main .container p {
+    width: 75%;
+}
+
+main .container a {
+    font-weight: 600;
+}
+
+main .container img {
+    height: 500px;
+    margin:40px 0 0 0;
+}
+
+main .cta a {
+    padding: 30px;
+    background: #59A5D8;
+    border-bottom: 1px solid #386FA4;
+    color: #fff;
+    font-size: 1.2rem;
+    transition: all 0.1s ease-in-out 0s;
+}
+
+main .cta a:hover {
+    background: #63B9F2;
+    border-bottom: 5px solid #4080BC;
+    /* Transform så knappen "lyfter" och lägg till :active sen */
+}
+
+main .movie-grid {
+    display: grid;
+    width:100%;
+    height: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 60px 60px 60px 60px 60px;
+    grid-gap: 0;
+    grid-template-areas: ". . . ." ". . . ." ". . . ." ". . . ." ". . . ." ". . . .";
+}
+
+main .movie-grid-header, main .movie-grid-item {
+    padding: 10px;
+    font-weight: 300;
+    
+}
+
+main .movie-grid-header {
+    background: #6761A8;
+    color: #fff;
+    align-self: end;
+    font-size: 1.1rem;
+    border-bottom: 3px solid #9ea7af;
+}
+
+main .movie-grid-header:first-child {
+    border-top-left-radius: 3px;
+}
+
+main .movie-grid-header:nth-child(4) {
+    border-top-right-radius: 3px;
+}
+
+main .movie-grid-item {
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+main .movie-grid-item:nth-child(4n) {
+    border-right: 0;
+}
+
+main .container ul a {
+    font-size: 1.1rem;
+    color: #009B72;
+}
+
+main .container ul ul {
+    padding-left: 20px;
+}
+
+main .form {
+    width: 500px;
+}
+
+main .form-group {
+    margin-bottom: 2rem;
+}
+
+main .form-group label {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+main .form-group input, .form-group select, .form-group textarea {
+    width: 500px;
+    border-radius: 5px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    background: rgba(230, 241, 74, 0.5);
+}
+
+main .form-group textarea, .form-group option {
+    font-family: 'Roboto', sans-serif;
+    color: #595F72;
+}
+
+main .form-button {
+    padding: 30px;
+    background: #E6F14A;
+    border-bottom: 1px solid rgb(190, 199, 60);
+    font-size: 1.2rem;
+    transition: all 0.1s ease-in-out 0s;
+}
+
+main .form-button:hover {
+    background: rgb(233, 241, 110);
+    border-bottom: 5px solid rgb(190, 199, 60);
+    /* Transform så knappen "lyfter" och lägg till :active sen */
+}
+
+/* Footer */
+
+footer {
+    height: 100px;
+    margin-top: 20px;
+    background: #343E3D;
+}
+
+footer p {
+    color: #939A9F;
+}
+
+footer a {
+    color: #F0544F;
+}

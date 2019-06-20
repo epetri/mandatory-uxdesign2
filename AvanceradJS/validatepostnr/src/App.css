@@ -1,0 +1,33 @@
+.App {
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+  border: 2px solid cornflowerblue;
+  width: 350px;
+  height: 370px;
+  border-radius: 20px;
+}
+
+h1 {
+  font-family: fantasy;
+  font-size: 60px;
+}
+
+input {
+  height: 30px;
+  padding-left: 2px;
+  font-family: fantasy;
+}
+
+button {
+  margin-left: 5px;
+  height: 35px;
+  border-radius: 5px;
+  font-family: fantasy;
+  border: none;
+  background-color: cornflowerblue;
+}
+
+p {
+  font-family: fantasy;
+}

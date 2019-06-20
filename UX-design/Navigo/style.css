@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header {
+  width: 100vw;
+  height: 150px;
+  background-color: lightgrey;
+}
+
+nav {
+  width: 20%;
+  height: 100vh;
+  background-color: lightyellow;
+}
+
+main {
+  width: 80%;
+  height: 100vh;
+}

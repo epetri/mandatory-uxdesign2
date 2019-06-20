@@ -1,0 +1,46 @@
+body {
+
+  background-image: url(pic.png);
+}
+@media (max-width: 500px) {
+  body {
+    background-color: red;
+  }
+}
+@media (min-width:501px) and (max-width: 600px) {
+  body {
+    background-color: orange;
+  }
+}
+@media (min-width:601px) and (max-width: 700px) {
+  body {
+    background-color: yellow;
+  }
+}
+@media (min-width:701px) and (max-width: 800px) {
+  body {
+    background-color: green;
+  }
+}
+@media (min-width:801px) and (max-width: 900px) {
+  body {
+    background-color: cyan;
+  }
+}
+@media (min-width:901px) and (max-width: 1000px) {
+  body {
+    background-color: blue;
+  }
+}
+@media (min-width:1001px) and (max-width: 1200px) {
+  body {
+    background-color: violet;
+  }
+}
+
+
+
+
+
+
+Röd, Orange, Gul, Grön, Cyan, Blå och Violett.

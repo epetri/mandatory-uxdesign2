@@ -1,0 +1,57 @@
+body {
+  padding: 40px;
+  background-color: #caeaf5;
+}
+
+h1 {
+  color: #6f6fb8;
+}
+
+input {
+  border-radius: 5px;
+  padding: 10px;
+  height: 30px;
+  width: 500px;
+  font-size: 20px;
+  border: none;
+  border-bottom: 2px solid lightblue;
+  outline: none;
+}
+
+textarea {
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  font-size: 18px;
+  outline: none;
+}
+
+button {
+  margin: auto;
+  background-color: lightblue;
+  border-color: #6f6fb8;
+  height: 30px;
+  width: 200px;
+  border-radius: 10px;
+  margin-top: 10px;
+  outline: none;
+}
+
+#todoForm {
+  display: flex;
+  flex-direction: column;
+}
+
+#todoList {
+  list-style: none;
+  margin: 20px 0;
+  padding: 0;
+}
+
+#todoList > li {
+  margin: 0;
+}
+
+#todoList > li > input:checked + label {
+  text-decoration: line-through;
+}

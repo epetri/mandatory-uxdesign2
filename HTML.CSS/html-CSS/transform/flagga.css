@@ -1,0 +1,40 @@
+div {
+  background-color: blue;
+  width: 700px;
+  height: 400px;
+  border: 1px solid grey;
+  position: relative;
+}
+
+div::before {
+  content: '';
+  background-color: yellow;
+  width: 703px;
+  height: 70px;
+  position: absolute;
+  top: 170px;
+}
+
+div::after {
+  content: '';
+  background-color: yellow;
+  width: 70px;
+  height: 400px;
+  position: absolute;
+  left: 170px;
+}
+
+div:hover {
+  transition: all 1s ease-in-out;
+  background-color: red;
+}
+
+div:hover::after {
+  transition: all 1s ease-in-out;
+  background-color: white;
+}
+
+div:hover::before {
+  transition: all 1s ease-in-out;
+  background-color: white;
+}

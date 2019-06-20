@@ -1,0 +1,17 @@
+svg #transform {
+  transition: d 0.5s;
+}
+
+svg #transform:hover {
+  d: path("M5,5 L50,50 l30,-20z");
+}
+
+
+path:hover {
+  fill: #EF58FF;
+  stroke: purple;
+}
+
+polygon:hover {
+  fill: #EF58FF;
+}
